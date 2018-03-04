@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="home.master.cs" Inherits="UserMaster_home" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="../Styles/Styleuser.css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+  
+    </head>
+<body>
+    <form id="form1" runat="server">
+        <div id="PageWrapper">
+        <header>
+
+            <table class="tb1">
+                <tr>
+                    <td class="auto-style2">
+                        <asp:Image ID="Image2" runat="server" Height="75px" ImageUrl="~/Image/em2.gif" Width="200px" />
+                    </td>
+                    <td class="t1"><strong>Sierra Atlantic Limited</strong> </td>
+                    <td class="auto-style1">
+                        <asp:Image ID="Image1" runat="server" Height="53px" ImageUrl="~/Image/ph3.jpg" Width="74px" />
+                    </td>
+                    <td><strong>Contact Us:-</strong><br />
+                        <strong>180070777125</strong></td>
+                </tr>
+            </table>
+
+        </header>
+        <nav>
+             <div class="bg-right">
+        <div class="bg-left">
+ 
+            <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" CssClass="MainMenu" EnableViewState="False" StaticEnableDefaultPopOutImage="False">
+                <Items >
+                    <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/Users/home.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="About Us" Value="About Us" NavigateUrl="~/Users/Default.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="Help" Value="Help">
+                        <asp:MenuItem Text="Exam Details" Value="Exam Details" NavigateUrl="~/Users/Default2.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Other Details" Value="Other Details" NavigateUrl="~/Users/Default3.aspx"></asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem Text="Login" Value="Login" NavigateUrl="~/Users/index.aspx"></asp:MenuItem>
+                </Items>
+            </asp:Menu>
+        </div>
+      </div>
+        </nav>
+        <section id="MainContent">
+    
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+   </section>
+            <aside><div class="head"><div class="head-cnt"><h3>Top Reveiw</h3></div></div><br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+            </aside>
+              
+             </div>
+        
+    </form>
+</body>
+</html>

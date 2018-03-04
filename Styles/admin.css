@@ -1,0 +1,26 @@
+﻿body {    
+    background-color:#FFFF99;
+}
+header {
+    
+}
+.Maincontent {
+    background-color: #6633CC;
+}
+.Head1 {
+    background-color:#8e33cc;
+    font-family:'Times New Roman';
+    font-style:normal;
+    font-size:xx-large;
+    font-weight:200;
+    text-decoration-color:aqua;
+}
+.ttt {
+    flex-align:center;
+    
+}
+.bottoncs {
+    background-color:#303030;
+    font-weight: 700;
+    font-size: medium;
+}

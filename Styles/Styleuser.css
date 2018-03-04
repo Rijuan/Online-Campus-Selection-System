@@ -1,0 +1,122 @@
+﻿* {
+    font-family: Arial;
+}
+.introduction {
+            font-style: italic;
+            color: #800080;
+        }
+header {
+    color:antiquewhite;
+    width:1000px;
+    height:100px;
+    flex-align:center;
+}
+body {
+  background: url(http://localhost:1103/CSS/Image/bg.gif) repeat 0 0;
+   font-size: 12px;
+    line-height: 1.2;
+    font-family: Arial, "Trebuchet MS", sans-serif;
+    color: #a0a0a0;
+    text-align: left;
+}
+
+p {
+    marquee-style:scroll;
+}
+
+
+h1 {
+    font-size: 20px;
+    
+    padding: 10px;
+    margin: 0px 0px 10px 0px;
+    color: #CC3300;
+    text-decoration: underline;
+}
+
+#PageWrapper {
+    margin: auto;
+    width: 1000px;
+}
+
+nav {
+    background:url(http://localhost:1103/CSS/Image/sort-nav-bg.gif)repeat 0 0;
+      width:1000px;
+ line-height:46px;
+}
+    nav .bg-right {
+                 background: url(http://localhost:1103/CSS/Image/sort-nav-bg-right.gif) no-repeat right 0; 
+                 position: relative; 
+                 height: 46px;
+
+    }
+    nav .bg-left {
+        background: url(http://localhost:1103/CSS/Image/sort-nav-bg-left.gif) no-repeat 0 0; 
+        position: relative; 
+        height: 46px;
+    }
+section#MainContent {
+    width: 820px;
+    float:right;
+    background:#050505 url(http://localhost:1103/CSS/Image/main-bg.gif) no-repeat 0 0; padding-top: 10px;
+    padding-top:10px;
+   
+}
+aside {
+    background-color: #050505;
+    width: 180px;
+    float: left;
+     padding-top:1px;
+}
+    aside .head {
+        background: url(http://localhost:1103/CSS/Image/block-head.gif) no-repeat 0 0; padding-left: 15px;
+    }
+aside .head .head-cnt {
+     background: url(http://localhost:1103/CSS/Image/block-head.gif) no-repeat right 0;
+      line-height: 38px; height: 38px; 
+      padding-right: 10px;
+      font-size: 15px; font-weight: bold; color: #262727;
+}
+footer {
+    background-color: #C0C0C0;
+    width: 844px;
+    clear: both;
+}
+
+table.tb1 {
+   text-align: left;
+   width:1000px;
+   height:100px;
+}
+th {
+   height:50px;
+}
+td.t1
+{
+    text-align:center;
+    font-family:'Times New Roman';
+    font-size:46px;
+    font-style:normal;
+    font:800;
+    color:silver;
+    
+   
+}
+.MainMenu {
+  border: 1px solid #999999;
+  width: 1000px;
+  height: 45px;
+  float:left;
+  font-family:Arial;
+  font-size:24px;
+  text-align:center;
+ color:#282828;
+}
+  .MainMenu ul li
+  {
+    /*
+    Gives the four menu items in the main menu a width of 200px each.
+  */
+    width: 240px;
+    text-align:center;
+  }
